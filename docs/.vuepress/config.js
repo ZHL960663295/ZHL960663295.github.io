@@ -16,7 +16,7 @@ module.exports = {
                 link: '/'
             },
             {
-                text: '冴羽的 JavaScript 博客',
+                text: '一点的 JavaScript 博客',
                 items: [{
                         text: 'Github',
                         link: 'https://github.com/mqyqingfeng'
