@@ -1,14 +1,17 @@
 module.exports = {
-    title: 'TypeScript4 文档',
-    description: 'TypeScript4 最新官方文档翻译',
+    title: 'notes',
+    description: '前端知识笔记',
     theme: 'reco',
     locales: {
         '/': {
             lang: 'zh-CN'
         }
     },
+    //指定首页文件路径
+    home: '/',
     themeConfig: {
-        subSidebar: 'auto'
+        subSidebar: 'auto',
+        sidebarDepth: 3
     },
     themeConfig: {
         nav: [{
@@ -16,25 +19,30 @@ module.exports = {
                 link: '/'
             },
             {
-                text: '一点的 JavaScript 博客',
+                text: '个人链接',
                 items: [{
                         text: 'Github',
-                        link: 'https://github.com/mqyqingfeng'
+                        link: 'https://github.com/ZHL960663295'
                     },
                     {
                         text: '掘金',
-                        link: 'https://juejin.cn/user/712139234359182/posts'
+                        link: 'https://juejin.cn/user/4204959635367640/posts'
                     }
                 ]
             }
         ],
         sidebar: [{
-                title: '欢迎学习',
+                title: '概述',
                 path: '/',
                 collapsable: false, // 不折叠
+
+            }, {
+                title: 'git series',
+                path: '/git/GitCreate',
+                collapsable: false, // 不折叠
                 children: [{
-                    title: "学前必读",
-                    path: "/"
+                    title: "git远程分支添加、关联等操作",
+                    path: "/git/GitCreate"
                 }]
             },
             {
