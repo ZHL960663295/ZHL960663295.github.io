@@ -32,9 +32,13 @@ module.exports = {
             }
         ],
         sidebar: [{
-                title: '概述',
+                title: 'Welcome To Paradise',
                 path: '/',
                 collapsable: false, // 不折叠
+                children: [{
+                    title: "概述",
+                    path: "/"
+                }]
 
             }, {
                 title: 'git series',
