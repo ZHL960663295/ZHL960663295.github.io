@@ -12,6 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.9",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.1",
     "vuepress-theme-reco": "^1.6.17"
+  },
+  "dependencies": {
+    "vuepress-plugin-juejin-style-copy": "^1.0.4"
   }
 }

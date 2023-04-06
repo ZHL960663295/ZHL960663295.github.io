@@ -2,6 +2,7 @@ module.exports = {
     title: 'notes',
     description: '前端知识笔记',
     theme: 'reco',
+    logo: "/logo.jpg",
     locales: {
         '/': {
             lang: 'zh-CN'
@@ -64,5 +65,14 @@ module.exports = {
                 ],
             }
         ]
-    }
-}
+    },
+    plugins: [
+        ["vuepress-plugin-juejin-style-copy", {
+          copyText: "复制代码",
+          tip: {
+              content: "复制成功"
+          }
+       }]
+    ]
+};
+
