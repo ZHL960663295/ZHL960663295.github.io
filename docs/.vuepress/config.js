@@ -67,13 +67,11 @@ module.exports = {
         ]
     },
     plugins: [
-        ["vuepress-plugin-code-copy", {
-            // selector: String,
-            // align: String,
-            // color: String,
-            backgroundTransition: false,
-            // backgroundColor: String,
-            // successText: String
+        ["vuepress-plugin-juejin-style-copy", {
+          copyText: "复制代码",
+          tip: {
+              content: "复制成功"
+          }
        }]
     ]
 };
