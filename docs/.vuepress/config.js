@@ -51,6 +51,15 @@ module.exports = {
                 }]
             },
             {
+                title: 'npm series',
+                path: '/npm/note',
+                collapsable: false, // 不折叠
+                children: [{
+                    title: "npm相关操作",
+                    path: "/npm/note"
+                }]
+            },
+            {
                 title: "基础学习",
                 path: '/handbook/ConditionalTypes',
                 collapsable: false, // 不折叠
