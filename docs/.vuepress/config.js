@@ -72,6 +72,16 @@ module.exports = {
                         path: "/handbook/Generics"
                     }
                 ],
+            },
+            {
+                title: "遇到的问题",
+                path: '/questions/vueQuestion',
+                collapsable: false, // 不折叠
+                children: [{
+                        title: "自定义指令问题",
+                        path: "/questions/vueQuestion'"
+                    }
+                ],
             }
         ]
     },
