@@ -78,10 +78,10 @@ module.exports = {
                 path: '/questions/VueQuestion',
                 collapsable: false, // 不折叠
                 children: [{
-                        title: "自定义指令问题",
-                        path: "/questions/VueQuestion"
-                    }
-                ],
+                    title: "自定义指令问题",
+                    path: "/questions/VueQuestion"
+                }
+            ],
             }
         ]
     },
