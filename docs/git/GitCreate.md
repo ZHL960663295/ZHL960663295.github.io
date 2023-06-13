@@ -19,4 +19,7 @@ git remote add origin git@github.com:ZHL960663295/ZHL960663295.github.io.git
 ``` js  
 git branch --set-upstream-to=origin/远程分支名称 本地分支名称
 ```
-
+- 有时候创建分支之后会不显示，就用到了这句代码，更新远程分支
+``` js
+git remote update origin --prune 
+```
